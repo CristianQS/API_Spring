@@ -7,3 +7,6 @@ CREATE TABLE public.series
 );
 CREATE UNIQUE INDEX series_id_uindex ON public.series (id);
 CREATE UNIQUE INDEX series_id_uindex_2 ON public.series (id);
+
+INSERT INTO series (name, seasons, description)
+VALUES ('Juego de Tronos', 6 , 'Esto es juego de tronos');
