@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="ApiDAW2@localhost" uuid="c91dcfb7-e012-4471-a86e-c351b955f012">
+      <database-info product="PostgreSQL" version="10.4 (Debian 10.4-2.pgdg90+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>fran</user-name>
+      <introspection-schemas>ApiDAW2:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>
