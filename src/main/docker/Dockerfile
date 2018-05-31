@@ -1,0 +1,11 @@
+FROM postgres
+
+ENV POSTGRES_DB ApiDAW2
+ENV POSTGRES_USER fran
+ENV POSTGRES_PASSWORD 1234
+
+COPY init.sql /docker-entrypoint-initdb.d/init.sql
+
+WORKDIR /ApiDAW2
+
+EXPOSE 5432
